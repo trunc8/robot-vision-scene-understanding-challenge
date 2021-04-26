@@ -11,7 +11,7 @@ Please follow the installation steps in [Votenet's repository](https://github.co
 - Implemented 3D object detection leveraging Votenet's architecture on images taken from the following dataset:
     - DIODE Dataset (`detection_on_diode_dataset.py`): Converted the RGB image and depth npy file + depth_mask npy file into pointcloud format. The network failed to identify the chairs in the image. A possible reason could be that we're using Votenet weights trained on the SunRGBD dataset. We next switched to the same.
     - SunRGBD dataset (`detection_on_sunrgbd.py`): Converted depth image into pointcloud format and fed it to the Votenet network. On image 3.png, the bed was successfully detected. While on image 189.png, it failed to detect the chairs or table.
-    ![Terminal output](results/terminal.png)
+    ![Terminal output](experimentation/results/terminal.png)
 
 ## Future work
 - Improve Votenet's object detection performance on other objects
