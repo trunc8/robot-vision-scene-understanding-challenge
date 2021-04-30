@@ -1,8 +1,0 @@
-How to read an image from diode dataset-
-https://github.com/diode-dataset/diode-devkit/blob/master/diode.py
-
-Conversion from depth image to pointcloud-
-https://medium.com/yodayoda/from-depth-map-to-point-cloud-7473721d3f
-
-Using Votenet's pretrained weights
-https://github.com/charlesq34/votenet-1/blob/master/demo.py
